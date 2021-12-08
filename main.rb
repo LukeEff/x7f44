@@ -8,7 +8,7 @@ N_SIDES = 6
 
 tiles = []
 NUM_T.times do |i|
-  @tiles << i + 1
+  tiles << i + 1
 end
 
 dice = (1..N_DICE).map { |i| Die.new(N_SIDES) }
