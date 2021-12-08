@@ -2,12 +2,8 @@ class Box
 
   attr_reader :shut_tiles, :number_of_tiles
 
-  def initialize(number_of_tiles)
-    @number_of_tiles = number_of_tiles
-    @tiles = []
-    @number_of_tiles.times do |i|
-      @tiles << i + 1
-    end
+  def initialize(tiles = [])
+    @tiles = tiles
     @shut_tiles = []
   end
 
