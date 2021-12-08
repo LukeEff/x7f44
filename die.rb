@@ -10,7 +10,7 @@ class Die
     @prng = Random.new
   end
 
-  def prepare()
+  def prepare!
     roll!
   end
 
