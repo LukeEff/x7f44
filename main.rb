@@ -6,10 +6,10 @@ NUM_T = 9
 N_DICE = 2
 N_SIDES = 6
 
-dice= (1..N_DICE).map { |i| Die.new(N_SIDES) }
-box= Box.new(NUM_T)
+dice = (1..N_DICE).map { |i| Die.new(N_SIDES) }
+box = Box.new(NUM_T)
 
-game=Game.new(box, dice)
+game = Game.new(box, dice)
 
 puts Game::WELCOME_MESSAGE
 game.start!
