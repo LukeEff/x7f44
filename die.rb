@@ -19,7 +19,8 @@ class Die
   end
 
   def makeRoll
-        roll!
-    end
+    roll!
+  end
 
 end
+
