@@ -1,6 +1,6 @@
 require_relative 'game'
-  require_relative 'box'
-  require_relative 'die'
+require_relative 'box'
+require_relative 'die'
 
 NUM_T = 9
 N_DICE = 2
@@ -12,10 +12,10 @@ box= Box.new(NUM_T)
 game=Game.new(box, dice)
 
 puts Game::WELCOME_MESSAGE
- game.start!
+game.start!
 game.play until game.over?
 
-puts   game.results
+puts game.results
 
 
 
