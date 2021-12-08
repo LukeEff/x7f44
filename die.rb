@@ -10,6 +10,10 @@ class Die
     @prng = Random.new
   end
 
+  def prepare()
+    roll!
+  end
+
   def roll!
     self.value = prng.rand(1..number_of_sides)
   end
