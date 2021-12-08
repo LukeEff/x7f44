@@ -19,7 +19,7 @@ class Box
     false
   end
 
-  def getTiles
+  def tiles 
     @tiles
   end
 
