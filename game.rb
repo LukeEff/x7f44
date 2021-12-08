@@ -19,7 +19,7 @@ class Game
   end
 
   def prepare_next_round
-    dice.each(&:roll!)
+    dice.each(&:prepare!)
   end
 
   def play
