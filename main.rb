@@ -17,21 +17,3 @@ game.play until game.over?
 
 puts game.results
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
